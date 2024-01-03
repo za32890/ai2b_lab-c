@@ -1,0 +1,42 @@
+.details-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.person {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 5px;
+}
+
+.address {
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
